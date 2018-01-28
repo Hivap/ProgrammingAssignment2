@@ -15,8 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
         setinverse <- function(inverse) invrs <<- inverse  ## get the inverse of the matrix and assign it to invrs
         getinverse <- function() invrs                     ## reads the value of invrs
         list(set = set, get = get,
-             setmean = setinverse,
-             getmean = getinverse)
+             setinverse = setinverse,
+             getinverse = getinverse)
      
 }
 
